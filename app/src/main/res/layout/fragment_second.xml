@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/laya"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/cont_shadow"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/fifth"/>
+        <TextView
+            android:text="Contact name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fifth"
+            android:layout_alignStart="@id/fifth"
+            android:layout_alignLeft="@id/fifth"
+            android:textColor="@color/black"
+            android:id="@+id/tt1"/>
+        <TextView
+            android:text="Contact number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tt1"
+            android:layout_alignStart="@id/tt1"
+            android:layout_alignLeft="@id/tt1"
+            android:textColor="@color/black"
+            android:id="@+id/num1"/>
+    </RelativeLayout>
+    <!--TextView
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="How to use:
+This app allows you to send your location to the responder immediately by just clicking the button corresponding to the emergency case you are in:
+" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/red"
+        android:text="1.Red button - Fire Station"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/blue"
+        android:text="2.Blue button - Police Station"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/yellow"
+        android:text="3.Yellow button - MDRRMC"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/green"
+        android:text="4.Green button - Hospital(JNGH)"/>
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/gray"
+        android:text="5.Extra button - for users personal preference ( the user can select a maximum of 2 preference contact number)"/-->
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/brown2"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="What kind of emergency do you have?"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/brown2"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/red"
+            android:clickable="true"
+            android:text="Fire"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <Button
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/blue"
+            android:clickable="true"
+            android:text="Flood"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <Button
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_or"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/green"
+            android:clickable="true"
+            android:text="Accident"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <Button
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_earth"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/brown"
+            android:clickable="true"
+            android:text=" Earthquake "
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <Button
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_crime"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/yellow"
+            android:clickable="true"
+            android:text="Crime"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "212383025703",
+    "firebase_url": "https://alertapp2.firebaseio.com",
+    "project_id": "alertapp2",
+    "storage_bucket": "alertapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212383025703:android:37f8de51eeafc53d",
+        "android_client_info": {
+          "package_name": "com.example.user.appalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212383025703-4dsgrgfr9a377gfc86316kfnhpoi4caq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc0ejgu3yJo_eByq7JJR2wE0UpAPMEv4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

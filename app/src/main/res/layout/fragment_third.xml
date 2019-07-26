@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Requirements while using the App" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Internet connection\n\n2. Load For SMS\n\n3. GPS"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to use the App"/>
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Register to activate the app. Upon registering you need to fill the fields with your basic information. You must have an internet connection while registering. Wait for the server to accept your registration request.\n\n2. Emergency button – when you click the red button types of emergency will appear such as the following:
+\n\n	RED is for fire.
+\n	BLUE is for flood
+\n	GREE is for accident
+\n	BROWN is for earthquake
+\n	YELLOW is for crime
+\n	Select the emergency situation that you have and it will send alert to the server and through SMS to the Admin.\n\n3. Emergency Contact Person – You can select the contact person you want by double clicking the button to access your contact list. Single click to send them the SMS alert message to your emergency contact person."/>
+</LinearLayout>
