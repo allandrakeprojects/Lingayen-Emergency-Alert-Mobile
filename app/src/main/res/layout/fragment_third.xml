@@ -5,6 +5,8 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
 
+
+
     <TextView
         android:layout_margin="20dp"
         android:textSize="20sp"
@@ -22,32 +24,89 @@
         android:textSize="16sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1. Internet connection\n\n2. Load For SMS\n\n3. GPS"/>
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:text="1. Internet connection\n\n2. GPS"/>
+
+    <LinearLayout
+        android:id="@+id/helpCitizen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="How to use the App"/>
-    <TextView
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:textColor="@color/gray"
-        android:textSize="16sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="1. Register to activate the app. Upon registering you need to fill the fields with your basic information. You must have an internet connection while registering. Wait for the server to accept your registration request.\n\n2. Emergency button – when you click the red button types of emergency will appear such as the following:
-\n\n	RED is for fire.
-\n	BLUE is for flood
-\n	GREE is for accident
-\n	BROWN is for earthquake
-\n	YELLOW is for crime
-\n	Select the emergency situation that you have and it will send alert to the server and through SMS to the Admin.\n\n3. Emergency Contact Person – You can select the contact person you want by double clicking the button to access your contact list. Single click to send them the SMS alert message to your emergency contact person."/>
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use the App"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Registration – upon registering you need to fill the fields with your basic information also photo of you for identification. You must have an internet connection while registering.\n\n2. Send Alert – when you click the alert button it will send the alert to the server and wait to accept by Police Officer. We'll notify you if your alert already accept of our Police Officer.\n\n3. Profile Settings – you can easily update for user information in this menu."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helpAdmin"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use the App"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Registration – upon registering you need to fill the fields with your basic information also photo of you for identification. You must have an internet connection while registering.\n\n2. Alerts – you'll see here the alerts real-time you can see citizen location or map, you can respond and immediately notify the citizen that you're now on the way and you can click done so that it will go now to History menu.\n\n3. History - you'll see here all done alerts.\n\n4. Add Police Officer – as you are the Administrator you have the access to add police officer"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helpPoliceOfficer"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use the App"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Registration – upon registering you need to fill the fields with your basic information also photo of you for identification. You must have an internet connection while registering.\n\n2. Alerts – you'll see here the alerts real-time you can see citizen location or map, you can respond and immediately notify the citizen that you're now on the way and you can click done so that it will go now to History menu.\n\n3. History - you'll see here all done alerts."/>
+    </LinearLayout>
 </LinearLayout>
